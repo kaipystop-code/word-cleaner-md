@@ -1,0 +1,35 @@
+# 環境變數與機密資訊
+.env
+.env.*
+!.env.example
+
+# 作業系統暫存
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 編輯器與 IDE 設定
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 專案測試與輸入輸出資料夾
+input/
+output/
+temp/
+*.docx.bak
